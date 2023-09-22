@@ -21,4 +21,8 @@ def calcular_imc(altura, peso):
         print("você está dentro da categoria Obesidade grau três, uma visita ao médico é recomendada")
 
 
-calcular_imc(1.72, 68)
+altura = float(input(
+    "Digite sua altura em metros separando os centímetros por vírgula: exemplo 172 cm => 1,72 m "
+))
+peso = float(input("Insira seu peso em kg "))
+calcular_imc(altura, peso)
